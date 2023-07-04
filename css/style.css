@@ -33,6 +33,7 @@ a {
 
 .logo{
     width: 200px;
+    /* height: 100px; */
 }
 
 .logo-link{
@@ -45,15 +46,16 @@ a {
     font-family: var(--primary-font);
     text-align: center;
     margin-bottom: 100px;
+    color: #fff;
 }
 .produto-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-balenciaga/a6708d8b.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04976.jpg);
 }
 .produto-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Calcas-e-Shorts-Amiri/8994b0b0.jpg);
 }
 .produto-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Camisas/Camisas-amiri/013799eb.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04911.jpg);
 }
 .produto-4 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Oculos/Oculos-Lv/31f3be15.jpg);
@@ -65,7 +67,7 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Shorts/Shorts-Balenciaga/0a9dd678.jpg);
 }
 .produto-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Tenis/Tenis-AirForce/073b2830.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04896.jpg);
 }
 
 .cards {
@@ -93,6 +95,7 @@ a {
     color: #fff;
     text-transform: uppercase;
 	box-shadow: 0 2px 3px rgba(0,0,0,0.5); 
+    /* box-shadow: 2px 2px 10px 2px #202021; */
 	transition:.5s;
     
     position: relative;
