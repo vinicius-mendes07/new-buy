@@ -48,27 +48,6 @@ a {
     margin-bottom: 100px;
     color: #fff;
 }
-.produto-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04976.jpg);
-}
-.produto-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Calcas-e-Shorts-Amiri/8994b0b0.jpg);
-}
-.produto-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04911.jpg);
-}
-.produto-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Oculos/Oculos-Lv/31f3be15.jpg);
-}
-.produto-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Relogios/IMG_1277.JPG);
-}
-.produto-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Shorts/Shorts-Balenciaga/0a9dd678.jpg);
-}
-.produto-7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/fotos/DSC04896.jpg);
-}
 
 .cards {
     display: flex;
@@ -79,9 +58,6 @@ a {
 
 .card {
     width: 340px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 500px;
     display: flex;
     flex-direction: column;

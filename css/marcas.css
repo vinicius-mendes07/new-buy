@@ -1,0 +1,42 @@
+.blusas-marca-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Amiri/00110e0c.jpg);
+}
+.blusas-marca-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-balenciaga/08113191.jpg);
+}
+.blusas-marca-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Burberry/13d5a22b.jpg);
+}
+.blusas-marca-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Dior/0367251d.jpg);
+}
+.blusas-marca-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-givenchy/0615725d.jpeg);
+}
+.blusas-marca-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-Casacos-Gucci/07d67e09.jpg);
+}
+.blusas-marca-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-Casacos-LV/0145da91.jpg);
+}
+.blusas-marca-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Moncler/05d32445.jpeg);
+}
+.blusas-marca-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-Casacos-OFF/0d2c955c.jpeg);
+}
+.blusas-marca-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Palm-angels/00f07616.jpg);
+}
+.blusas-marca-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-Prada/09cd8fb3.jpg);
+}
+.blusas-marca-12 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-Casacos-versace/09595d77.jpg);
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
