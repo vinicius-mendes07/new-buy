@@ -1,0 +1,138 @@
+:root {
+    --primary-font: Helvetica, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    padding: 100px 10%;
+}
+
+.header {
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    z-index: 2;
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo-link{
+    color: #fff;
+    font-family: var(--primary-font);
+    font-size: 35px;
+}
+
+.title{
+    font-family: var(--primary-font);
+    text-align: center;
+    margin-bottom: 100px;
+}
+.produto-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Blusas-e-casacos/Blusas-e-casacos-balenciaga/a6708d8b.jpg);
+}
+.produto-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Calcas-e-Shorts-Amiri/8994b0b0.jpg);
+}
+.produto-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Camisas/Camisas-amiri/013799eb.jpg);
+}
+.produto-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Oculos/Oculos-Lv/31f3be15.jpg);
+}
+.produto-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Relogios/IMG_1277.JPG);
+}
+.produto-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Shorts/Shorts-Balenciaga/0a9dd678.jpg);
+}
+.produto-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../imagens/Tenis/Tenis-AirForce/073b2830.jpg);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 20px;
+
+    font-family: var(--primary-font);
+    color: #fff;
+    text-transform: uppercase;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.5); 
+	transition:.5s;
+    
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+	box-shadow: 0 6px 8px rgba(0,0,0,0.5);
+}
+
+.card-title{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.card-btn {
+    font-family: var(--primary-font);
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.card-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.marca-dagua {
+    position: absolute;
+    width: 100px;
+    right: 10px;
+    z-index: 0;
+    opacity: 0.4;
+    /* bottom: 10px; */
+}
