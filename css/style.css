@@ -52,8 +52,8 @@ a {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
+    gap: 25px;
+    justify-content: center;
 }
 
 .card {
