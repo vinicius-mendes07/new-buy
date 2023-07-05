@@ -6,7 +6,21 @@ export function createPhoto(maxImages, imageContainer, caminho) {
             width: 250px;
             height: 300px;
             cursor: pointer;
+            // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+            transition: 0.5s;
         `
+
+        img.addEventListener('mouseover', () => {
+            img.style.transform ='scale(1.1)'
+            img.style.boxShadow = 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px'
+        })
+        
+        img.addEventListener('mouseout', () => {
+            img.style.transform = 'scale(1)'
+            img.style.boxShadow = 'rgba(0, 0, 0, 0.24) 0px 3px 8px'
+        })
 
         
         img.src = caminho + i + ".jpg"; // Substitua pelo caminho correto para a pasta e a extensão das imagens
@@ -26,14 +40,14 @@ function expandImage(imageUrl) {
     x1.style = `
         width: 100%;
         height: 3px;
-        background-color: #fff;
+        background-color: #dbdbdb;
         transform-origin: 0% 0%;
         transform: rotate(45deg) scaleX(1.25);
         `
         x2.style = `
         width: 100%;
         height: 3px;
-        background-color: #fff;
+        background-color: #dbdbdb;
         transform-origin: 0% 100%;
         transform: rotate(-45deg) scaleX(1.25);
     `
@@ -69,11 +83,13 @@ function expandImage(imageUrl) {
     function screenSize(e) {
         if (e.matches) {
             image.style = `
-                width: 80%;
+                width: 90%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             `
         } else {
             image.style = `
-                width: 450px;
+                width: 400px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             `
         }
     }
