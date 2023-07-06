@@ -1,0 +1,42 @@
+.blusas-marca-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Amiri/amiri-10.jpg);
+}
+.blusas-marca-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-balenciaga/balenciaga-3.jpg);
+}
+.blusas-marca-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Burberry/burberry-15.jpg);
+}
+.blusas-marca-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Dior/dior-15.jpg);
+}
+.blusas-marca-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-givenchy/givenchy-10.jpg);
+}
+.blusas-marca-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-Casacos-Gucci/gucci-6.jpg);
+}
+.blusas-marca-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-Casacos-LV/louis-vuitton-29.jpg);
+}
+.blusas-marca-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Moncler/moncler-19.jpg);
+}
+.blusas-marca-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-Casacos-Off-white/off-white-1.jpg);
+}
+.blusas-marca-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Palm-angels/palm-angels-12.jpg);
+}
+.blusas-marca-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-casacos-Prada/prada-4.jpg);
+}
+.blusas-marca-12 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Blusas-e-casacos/Blusas-e-Casacos-versace/versace-18.jpg);
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
