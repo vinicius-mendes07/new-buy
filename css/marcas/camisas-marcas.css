@@ -1,0 +1,42 @@
+.camisas-marca-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Camisas-amiri/amiri-1.jpg);
+}
+.camisas-marca-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Camisas-balenciaga/balenciaga-9.jpg);
+}
+.camisas-marca-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Camisas-Burberry/burberry-25.jpg);
+}
+.camisas-marca-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Dior/dior-15.jpg);
+}
+.camisas-marca-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/givenchy/givenchy-10.jpg);
+}
+.camisas-marca-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Gucci/gucci-6.jpg);
+}
+.camisas-marca-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/LV/louis-vuitton-29.jpg);
+}
+.camisas-marca-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Moncler/moncler-19.jpg);
+}
+.camisas-marca-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Off-white/off-white-1.jpg);
+}
+.camisas-marca-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Palm-angels/palm-angels-12.jpg);
+}
+.camisas-marca-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/Prada/prada-4.jpg);
+}
+.camisas-marca-12 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Camisas/versace/versace-18.jpg);
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
