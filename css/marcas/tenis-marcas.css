@@ -1,0 +1,48 @@
+.tenis-marca-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Air-Force/air-force-15.jpg);
+}
+.tenis-marca-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Air-Jordan/air-jordan-8.jpg);
+}
+.tenis-marca-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Amiri/amiri-6.jpg);
+}
+.tenis-marca-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Balenciaga/balenciaga-2.jpg);
+}
+.tenis-marca-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Burberry/burberry-10.jpg);
+}
+.tenis-marca-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Dior/dior-6.jpg);
+}
+.tenis-marca-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Dunk/dunk-15.jpg);
+}
+.tenis-marca-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Gucci/gucci-47.jpg);
+}
+.tenis-marca-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-LV/louis-vuitton-97.jpg);
+}
+.tenis-marca-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Nike-Off-white/nike-off-white-3.jpg);
+}
+.tenis-marca-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Off-white/off-white-7.jpg);
+}
+.tenis-marca-12 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Prada/prada-4.jpg);
+}
+.tenis-marca-13 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-valentino/valentino-5.jpg);
+}
+.tenis-marca-14 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-versace/versace-16.jpg);
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
