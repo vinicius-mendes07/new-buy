@@ -1,0 +1,39 @@
+.shorts-marca-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Balenciaga/balenciaga-15.jpg);
+}
+.shorts-marca-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Burberry/burberry-10.jpg);
+}
+.shorts-marca-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Dior/dior-15.jpg);
+}
+.shorts-marca-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-givenchy/givenchy-16.jpg);
+}
+.shorts-marca-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Gucci/gucci-16.jpg);
+}
+.shorts-marca-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-LV/louis-vuitton-27.jpg);
+}
+.shorts-marca-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Moncler/moncler-3.jpg);
+}
+.shorts-marca-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Off-white/off-white-10.jpg);
+}
+.shorts-marca-9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Palm-angels/palm-angels-4.jpg);
+}
+.shorts-marca-10 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Prada/prada-11.jpg);
+}
+.shorts-marca-11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Shorts/Shorts-Versace/versace-1.jpg);
+}
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
