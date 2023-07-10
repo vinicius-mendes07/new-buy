@@ -1,31 +1,51 @@
 export function createPhoto(maxImages, imageContainer, caminho) {   
     for (let i = 1; i <= maxImages; i++) {
+        const imageWrapper = document.createElement("div")
         const img = document.createElement("img");
+        const marcaDagua = document.createElement("img")
+        marcaDagua.src = "../../../imagens/newbuy-white-logo-2.png"
+        imageWrapper.appendChild(img)
+        imageWrapper.appendChild(marcaDagua)
+
+        imageWrapper.style = `
+        position: relative;
+        transition: 0.5s;
+        `
+        
+        marcaDagua.style = `
+            position: absolute;
+            width: 100px;
+            right: 10px;
+            bottom: 15px;
+            z-index: 0;
+            opacity: 0.5;
+        `
     
         img.style = `
             width: 250px;
             height: 300px;
+            padding: 0;
+            margin:0;
             cursor: pointer;
-            // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
             transition: 0.5s;
         `
 
         img.addEventListener('mouseover', () => {
-            img.style.transform ='scale(1.1)'
+            imageWrapper.style.transform ='scale(1.1)'
             img.style.boxShadow = 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px'
+
         })
         
         img.addEventListener('mouseout', () => {
-            img.style.transform = 'scale(1)'
+            imageWrapper.style.transform = 'scale(1)'
             img.style.boxShadow = 'rgba(0, 0, 0, 0.24) 0px 3px 8px'
         })
 
         
-        img.src = caminho + i + ".jpg"; // Substitua pelo caminho correto para a pasta e a extensão das imagens
+        img.src = caminho + i + ".jpg";
         img.addEventListener('click', () => expandImage(img.src))
-        imageContainer.appendChild(img);
+        imageContainer.appendChild(imageWrapper);
     }
 }
 
@@ -33,9 +53,42 @@ function expandImage(imageUrl) {
     const body = document.querySelector('body')
     const imageContainer = document.createElement('div')
     const image = document.createElement('img')
+    const marcaDagua = document.createElement('img')
     const closeBtn = document.createElement('div')
     const x1 = document.createElement('div')
     const x2 = document.createElement('div')
+    const imageWrapper = document.createElement('div')
+    const whatsappBtn = document.createElement('a')
+    
+    image.src = imageUrl
+
+    whatsappBtn.textContent = 'Comprar'
+    whatsappBtn.target = "_blank"
+    whatsappBtn.href = `https://api.whatsapp.com/send?phone=5566996796020&text=${encodeURIComponent( 'Olá! Eu vi esse produto no seu catálago e gostaria de saber mais sobre ele. \n\nAqui está uma prévia:\n ' + image.src)}`
+
+    whatsappBtn.style = `
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #fff;
+        background-color: #25d366;
+        padding: 10px;
+        text-transform: uppercase;
+        border-radius: 8px;
+    `
+
+    marcaDagua.src = '../../../imagens/newbuy-white-logo-2.png'
+
+    imageWrapper.appendChild(image)
+    imageWrapper.appendChild(marcaDagua)
+
+    marcaDagua.style = `
+        position: absolute;
+        width: 100px;
+        right: 10px;
+        bottom: 15px;
+        z-index: 0;
+        opacity: 0.5;
+    `
 
     x1.style = `
         width: 100%;
@@ -43,8 +96,8 @@ function expandImage(imageUrl) {
         background-color: #dbdbdb;
         transform-origin: 0% 0%;
         transform: rotate(45deg) scaleX(1.25);
-        `
-        x2.style = `
+    `
+    x2.style = `
         width: 100%;
         height: 3px;
         background-color: #dbdbdb;
@@ -56,10 +109,9 @@ function expandImage(imageUrl) {
     closeBtn.appendChild(x2)
 
 
-
-    imageContainer.appendChild(image)
+    imageContainer.appendChild(imageWrapper)
+    imageContainer.appendChild(whatsappBtn)
     imageContainer.appendChild(closeBtn)
-    image.src = imageUrl
 
     closeBtn.style = `
         position: fixed;
@@ -72,22 +124,24 @@ function expandImage(imageUrl) {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    `
+        `
 
     image.style = `
-        width: 450px;
+        width: 100%;
     `
-
+        
     var mediaQueryList = window.matchMedia('(max-width: 500px)');
 
     function screenSize(e) {
         if (e.matches) {
-            image.style = `
+            imageWrapper.style = `
+                position: relative;
                 width: 90%;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             `
         } else {
-            image.style = `
+            imageWrapper.style = `
+                position: relative;
                 width: 400px;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             `
@@ -105,18 +159,23 @@ function expandImage(imageUrl) {
 
         width: 100%;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.95);
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 20px;
         z-index: 999;
         padding: 10px;
     `
 
     closeBtn.addEventListener('click', ()=> {
         body.removeChild(imageContainer)
+        body.style.overflow = 'visible'
     })
+
+    body.style.overflow = 'hidden'
 
     body.appendChild(imageContainer)
 }
