@@ -62,9 +62,9 @@ function expandImage(imageUrl) {
     
     image.src = imageUrl
 
-    whatsappBtn.textContent = 'Comprar'
+    whatsappBtn.textContent = 'Tenho interesse'
     whatsappBtn.target = "_blank"
-    whatsappBtn.href = `https://api.whatsapp.com/send?phone=5566996796020&text=${encodeURIComponent( 'Olá! Eu vi esse produto no seu catálago e gostaria de saber mais sobre ele. \n\nAqui está uma prévia:\n ' + image.src)}`
+    whatsappBtn.href = `https://api.whatsapp.com/send?phone=553172348460&text=${encodeURIComponent( 'Olá! Eu vi esse produto no seu catálago e tenho interesse, gostaria de saber mais informações! \n\nAqui está uma prévia:\n ' + image.src)}`
 
     whatsappBtn.style = `
         font-family: Helvetica, sans-serif;
@@ -74,6 +74,7 @@ function expandImage(imageUrl) {
         padding: 10px;
         text-transform: uppercase;
         border-radius: 8px;
+        font-weight: 500;
     `
 
     marcaDagua.src = '../../../imagens/newbuy-white-logo-2.png'
