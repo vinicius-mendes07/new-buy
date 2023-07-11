@@ -40,6 +40,9 @@
 .tenis-marca-14 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-versace/versace-16.jpg);
 }
+.tenis-marca-15 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../imagens/Tenis/Tenis-Jordan-4/jordan-4-3.jpg);
+}
 
 .card {
     background-repeat: no-repeat;

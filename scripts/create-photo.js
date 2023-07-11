@@ -1,15 +1,16 @@
-export function createPhoto(maxImages, imageContainer, caminho) {   
+export function createPhoto(maxImages, imageContainer, caminho, caminhoMarcaDagua = '../../../imagens/newbuy-white-logo-2.png') {   
     for (let i = 1; i <= maxImages; i++) {
         const imageWrapper = document.createElement("div")
         const img = document.createElement("img");
         const marcaDagua = document.createElement("img")
-        marcaDagua.src = "../../../imagens/newbuy-white-logo-2.png"
+        marcaDagua.src = caminhoMarcaDagua
         imageWrapper.appendChild(img)
         imageWrapper.appendChild(marcaDagua)
 
         imageWrapper.style = `
-        position: relative;
-        transition: 0.5s;
+            position: relative;
+            transition: 0.5s;
+            cursor: pointer;
         `
         
         marcaDagua.style = `
@@ -26,7 +27,6 @@ export function createPhoto(maxImages, imageContainer, caminho) {
             height: 300px;
             padding: 0;
             margin:0;
-            cursor: pointer;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             transition: 0.5s;
         `
@@ -44,12 +44,12 @@ export function createPhoto(maxImages, imageContainer, caminho) {
 
         
         img.src = caminho + i + ".jpg";
-        img.addEventListener('click', () => expandImage(img.src))
+        img.addEventListener('click', () => expandImage(img.src, marcaDagua.src))
         imageContainer.appendChild(imageWrapper);
     }
 }
 
-function expandImage(imageUrl) {
+function expandImage(imageUrl, caminhoMarcaDagua) {
     const body = document.querySelector('body')
     const imageContainer = document.createElement('div')
     const image = document.createElement('img')
@@ -64,7 +64,7 @@ function expandImage(imageUrl) {
 
     whatsappBtn.textContent = 'Tenho interesse'
     whatsappBtn.target = "_blank"
-    whatsappBtn.href = `https://api.whatsapp.com/send?phone=553172348460&text=${encodeURIComponent( 'Olá! Eu vi esse produto no seu catálago e tenho interesse, gostaria de saber mais informações! \n\nAqui está uma prévia:\n ' + image.src)}`
+    whatsappBtn.href = `https://api.whatsapp.com/send?phone=553172348460&text=${encodeURIComponent( 'Olá! Eu vi esse produto no seu catálogo e tenho interesse, gostaria de saber mais informações! \n\nAqui está uma prévia:\n ' + image.src)}`
 
     whatsappBtn.style = `
         font-family: Helvetica, sans-serif;
@@ -77,7 +77,7 @@ function expandImage(imageUrl) {
         font-weight: 500;
     `
 
-    marcaDagua.src = '../../../imagens/newbuy-white-logo-2.png'
+    marcaDagua.src = caminhoMarcaDagua
 
     imageWrapper.appendChild(image)
     imageWrapper.appendChild(marcaDagua)
