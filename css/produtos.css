@@ -1,20 +1,61 @@
 .produto-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
+}
+.produto-1.visible {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/blusas-capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.produto-3 {
+
+.produto-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
+}
+.produto-2.visible {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/tshirts-capa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.produto-4 {
+
+.produto-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
+}
+.produto-3.visible {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/oculos-capa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.produto-5 {
+
+.produto-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
+}
+.produto-4.visible {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/relogios-capa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.produto-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
+}
+.produto-5.visible {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/shorts-capa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .produto-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/shorts-capa.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/logo-preta.jpeg);
 }
-.produto-7 {
+
+.produto-6.visible {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../imagens/fotos/tenis-capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .card {
