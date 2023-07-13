@@ -44,6 +44,7 @@ export function createPhoto(maxImages, imageContainer, caminho, caminhoMarcaDagu
 
         
         img.src = caminho + i + ".jpg";
+        img.loading = "lazy"
         img.addEventListener('click', () => expandImage(img.src, marcaDagua.src))
         imageContainer.appendChild(imageWrapper);
     }
